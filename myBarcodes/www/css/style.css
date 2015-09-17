@@ -1,1 +1,15 @@
 /* Empty. Add your own CSS if you like */
+.scroll-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+
+.card {
+  max-width: 10cm;
+}
+
+.item {
+  padding: 30px;
+}
