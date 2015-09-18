@@ -1,0 +1,13 @@
+<ion-view title="Main">
+  <ion-content>
+    <div class="list card">
+      <div class="item item-image" ng-repeat="barimg in barimages" on-tap="onTap()">
+        <img src={{barimg}}></img>
+      </div>
+
+      <div class="item item-text-wrap" on-tap="handleAdd()">
+        Add a barcode
+      </button>
+    </div>
+  </ion-content>
+</ion-view>
